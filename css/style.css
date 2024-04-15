@@ -93,3 +93,82 @@ html {
     grid-template-columns: repeat(7, 1fr);
     gap: 50px;
 }
+
+
+/* footer */
+.footer {
+    padding: 50px 0;
+    background-color: #E3F0F7;
+    border-bottom: 10px solid #25ACD7;
+}
+
+.right-overlay {
+    background: url("../img/last.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 45%;
+}
+
+.f-icon {
+    min-width: 75px;
+    width: 75px;
+    max-width: 75px;
+}
+
+.z-200 {
+    z-index: 200;
+}
+
+.mt-300 {
+    margin-top: 300px;
+}
+
+.v-text {
+    position: absolute;
+    left: -30px;
+    transform: rotate(-90deg);
+    top: 140px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .fs-90 {
+        font-size: 40px;
+    }
+
+    .grid-7 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+
+    .texts .col-md-5 {
+        padding-top: 20px;
+    }
+
+    .right-overlay {
+        background: url("../img/last.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        right: 0;
+        top: unset;
+        height: 45%;
+        width: 100%;
+        bottom: 0;
+    }
+
+    .footer .col-md-5.m-auto {
+        padding-top: 90px;
+    }
+
+    .v-text {
+        position: unset;
+        transform: unset;
+        padding: 0 0 35px 15px;
+    }
+}
