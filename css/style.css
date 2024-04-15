@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'regular';
+    src: url("../fonts/ProximaNova-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url("../fonts/ProximaNova-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'extrabold';
+    src: url("../fonts/ProximaNova-Extrabld.ttf");
+}
+
+* {
+    font-family: 'regular', sans-serif;
+}
+
+body,
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.bold {
+    font-family: 'bold', sans-serif;
+}
+
+.extrabold {
+    font-family: 'extrabold', sans-serif;
+}
+
+
+/* hero */
+.hero {
+    height: 100vh;
+    background: url("../img/hero.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right top;
+}
+
+.text-blue {
+    color: #122671;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.line {
+    background-color: #25ACD7;
+    height: 2px;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* big-text */
+.fs-90 {
+    font-size: 90px;
+}
+
+.lh-1 {
+    line-height: 1;
+}
+
+.text-sky {
+    color: #7BE7FD;
+}
+
+.bg-sky-50 {
+    background-color: #E3F0F7;
+}
+
+.icon {
+    height: 200px;
+}
+
+.py-50 {
+    padding: 50px 0;
+}
+
+/* logos */
+.partner-logo {
+    height: 60px;
+    object-fit: contain;
+}
+
+.grid-7 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 50px;
+}
